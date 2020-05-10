@@ -20,6 +20,8 @@ RUN npm config set registry https://registry.npm.taobao.org \
 
 EXPOSE 4000
 
+
 WORKDIR  /opt/
+
 
 CMD ["hexo server"]
