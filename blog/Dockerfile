@@ -18,7 +18,6 @@ RUN npm config set registry https://registry.npm.taobao.org \
     && cd blog \
     && hexo generate \
 
-
 EXPOSE 4000
 
 WORKDIR  /opt/
